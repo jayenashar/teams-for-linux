@@ -1,5 +1,27 @@
 # Changelog
 
+## [2.9.1](https://github.com/IsmaelMartinez/teams-for-linux/compare/v2.9.0...v2.9.1) (2026-05-08)
+
+
+### Bug Fixes
+
+* restore --ozone-platform=x11 default in package.json ([#2511](https://github.com/IsmaelMartinez/teams-for-linux/issues/2511)) ([99111fe](https://github.com/IsmaelMartinez/teams-for-linux/commit/99111fe64b24b8dc8b4f484ac60224cc60fe3839))
+
+
+### Code Improvements
+
+* **dialogs:** use shared createDialogWindow in JoinMeetingDialog ([#2507](https://github.com/IsmaelMartinez/teams-for-linux/issues/2507)) ([065ab86](https://github.com/IsmaelMartinez/teams-for-linux/commit/065ab86aebd015aaf64103019f9a77c971bffbb3))
+
+
+### Documentation
+
+* **roadmap:** capture 2026-05-07 ozone-platform default reset session ([#2509](https://github.com/IsmaelMartinez/teams-for-linux/issues/2509)) ([e1826ef](https://github.com/IsmaelMartinez/teams-for-linux/commit/e1826ef8b371ac43791e24a5601cab33de42b4fa))
+
+
+### Maintenance
+
+* **deps:** bump ip-address from 10.1.0 to 10.2.0 ([#2504](https://github.com/IsmaelMartinez/teams-for-linux/issues/2504)) ([c036c09](https://github.com/IsmaelMartinez/teams-for-linux/commit/c036c0976190be3e62a5ad44f06de82b2350c59e))
+
 ## [2.9.0](https://github.com/IsmaelMartinez/teams-for-linux/compare/v2.8.1...v2.9.0) (2026-05-06)
 
 > **Multi-account is a work-in-progress preview.** The new `multiAccount.enabled` flag (off by default) lets you keep separate Teams sessions in the same window. The Add-profile dialog and the Profiles → Switch-to menu work end-to-end in this release, but the Manage-profiles dialog, the visible top-right switcher pill, and `Ctrl+Shift+1…5` shortcuts are still ahead. Useful to test, but expect rough edges and follow [#2495](https://github.com/IsmaelMartinez/teams-for-linux/issues/2495) for ongoing progress.
