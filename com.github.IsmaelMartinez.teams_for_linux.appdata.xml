@@ -14,6 +14,16 @@
   <url type="bugtracker">https://github.com/IsmaelMartinez/teams-for-linux/issues</url>
   <launchable type="desktop-id">com.github.IsmaelMartinez.teams_for_linux.desktop</launchable>
   <releases>
+    <release version="2.9.1" date="2026-05-08">
+      <description>
+        <ul>
+          <li>restore --ozone-platform=x11 default in package.json (#2511)</li>
+          <li>dialogs: use shared createDialogWindow in JoinMeetingDialog (#2507)</li>
+          <li>roadmap: capture 2026-05-07 ozone-platform default reset session (#2509)</li>
+          <li>deps: bump ip-address from 10.1.0 to 10.2.0 (#2504)</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.9.0" date="2026-05-06">
       <description>
         <ul>
